@@ -1,0 +1,24 @@
+:root {
+  --primary-color: #781d42;
+  --secondary-color: #a3423c;
+  --background-visual: #f0d290;
+}
+
+header nav {
+  height: 150px;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+}
+
+header nav li {
+  padding: 20px;
+  border: 1px solid black;
+  background-color: var(--secondary-color);
+
+  border-radius: 20px;
+  margin: 10px;
+}
