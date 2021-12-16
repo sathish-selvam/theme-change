@@ -5,25 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/fdd1f6e4ab.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <script src="app.js" defer></script>
   </head>
   <body>
     <header>
+      <div class="company-logo-wrapper">
+        <img class="company-logo" src="./resource/logo_placeholder.png" alt="company logo" />
+      </div>
       <nav>
         <ul>
           <li>Home</li>
           <li>About</li>
           <li>Prouct</li>
           <li>Support</li>
-          <li>Find us</li>
+          <li class="nav-selected">Get Started</li>
         </ul>
       </nav>
-      <button id="toggle-theme">theme</button>
+      <section class="theme-toggle-wrapper">
+        <input type="checkbox" id="theme-toggle" />
+        <label name="check-label" for="theme-toggle">
+          <i class="far fa-moon"></i>
+          <i class="far fa-sun"></i>
+        </label>
+      </section>
     </header>
     <main>
-      <h1 class="banner">We strongly believe our product deliver world class insights</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime error quidem eligendi, hic nobis labore modi! Itaque neque accusamus, explicabo nulla adipisci non sint error, cumque, repudiandae numquam quasi!</p>
+      <section class="contents">
+        <h1 class="banner">Product Research</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem maxime error quidem eligendi, hic nobis labore modi! Itaque neque accusamus, explicabo nulla adipisci non sint error, cumque, repudiandae numquam quasi!</p>
+        <button class="btn-main-cover">Read More</button>
+      </section>
+      <section>
+        <img class="cover-image" src="./resource/cover_light.svg" alt="web page cover" />
+      </section>
     </main>
 
     <footer>All the Rights are reserved to myMedia inc</footer>
