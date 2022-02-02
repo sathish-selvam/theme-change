@@ -25,8 +25,8 @@ function themeDefault() {
 }
 
 /*
-  [] Cover image dark move conversion using Figma
-  [] Toggle used the checked box to showcase we can implement custome checkbox also checking state of html (checked attribute) to know the status
+  [] Cover image dark mode conversion using Figma
+  [] theme toggle were used as a checked box to showcase we can implement custome checkbox also checking state of that checkbox using HTML internal state (checked attribute) to know the status
   [] Added smooth transition to all the elment
 
 
